@@ -1,0 +1,23 @@
+/* Write your code here. */
+body {
+  margin: 0px;
+}
+.super-over-league {
+  background-color: #0f172a;
+  color: #f8fafc;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  width: 150px;
+  height: 150px;
+}
+@media (min-with: 768px) {
+  .img {
+    width: 200px;
+    height: 200px;
+  }
+}
